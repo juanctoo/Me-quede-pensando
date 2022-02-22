@@ -1,0 +1,92 @@
+#Text-container {
+	display: flex;
+	justify-content: center;
+	flex-flow: column-reverse wrap ;
+	min-width: 1000px;
+	width: auto;
+	padding-bottom: 20px;
+	height: auto;
+}
+
+#header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#header li {
+   list-style: none;
+   transition: 0.3s;
+}
+
+#header li:hover {
+    transform: scale(1.1);
+	cursor: pointer;
+}
+
+#header a {
+    text-decoration: none;
+    font-family: 'Mea Culpa', cursive;
+    color: black;
+    font-size: 70px;
+}
+
+#formText-container {
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	width: 1550px;
+	height: 50px;
+	
+}
+
+#formText-container > label {
+	font-family: 'Dancing Script', cursive; 
+	font-size: 50px; 
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+#formText-container > input {
+	font-family: "Poppins Light";
+    src: url(https://fonts.googleapis.com/css2?family=EB+Garamond&family=Poppins:wght@800&display=swap); 
+}
+
+#h3-pre {
+	font-family: 'Mea Culpa', cursive;
+	font-size: 60px;
+	padding-left: 20px;
+}
+
+#p-pre {
+	display: flex;
+	justify-content: start;
+	max-width: 730px;
+	height: auto;
+	flex-wrap: wrap;
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+	padding-left: 20px;
+}
+
+#img-pre {
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+#pre-date {
+	font-family: 'Dancing Script', cursive;
+	display: inline-flex;
+	justify-content: end;
+	font-size: 25px;
+	padding-left: 600px;
+}
+
+#newText-container {
+	background-color: #f7dcd9;
+	min-width: 1500px;
+	box-shadow: 17px 18px 46px -4px rgba(0,0,0,0.75);
+	margin: 50px;
+}

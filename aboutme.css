@@ -1,0 +1,29 @@
+#aboutMeContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#aboutMeImage {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+}
+
+#aboutMeAside {
+    display: flex;
+    flex-flow: column wrap;
+    width: 400px;
+    margin: 10px;
+}
+
+#aboutMeAside > h3 {
+    font-family: "Poppins Black";
+    src: url(https://fonts.googleapis.com/css2?family=EB+Garamond&family=Poppins:wght@800&display=swap); 
+    font-size: 30px;
+}
+
+#aboutMeAside > p {
+    font-family: "Poppins Light";
+    src: url(https://fonts.googleapis.com/css2?family=EB+Garamond&family=Poppins:wght@800&display=swap);
+    font-size: 20px;
+}

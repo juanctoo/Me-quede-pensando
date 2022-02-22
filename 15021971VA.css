@@ -1,0 +1,50 @@
+#comForm {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive; 
+    width: 1300px;
+    height: auto;
+    font-size: 70px;
+    
+}
+
+#comForm > label {
+    font-family: 'Dancing Script', cursive; 
+    font-size: 70px;
+    
+}
+
+#comForm input {
+    width: 150px;
+    height: 35px;
+    padding-top: 10px;
+    text-align: start;
+}
+
+#header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+#header li {
+   list-style: none;
+   transition: 0.3s;
+}
+
+#header li:hover {
+    transform: scale(1.1);
+	cursor: pointer;
+}
+
+#header a {
+    text-decoration: none;
+    font-family: 'Mea Culpa', cursive;
+    color: black;
+    font-size: 70px;
+}
+

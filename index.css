@@ -1,0 +1,100 @@
+
+
+
+body {
+	background-color: #fed9d5;
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	flex-flow: column wrap;
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+	
+
+.mainTitle h1 {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-wrap: wrap;
+	font-family: 'Mea Culpa', cursive;
+	font-size: 100px;
+}
+
+.welcome {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+	font-family: 'Mea Culpa', cursive;
+	font-size: 60px;
+	letter-spacing: 1px ;
+	margin: 0;
+	padding: 0px;
+}
+
+#blog-container {
+	display: flex;
+	justify-content: center;
+	flex-flow: column wrap ;
+	min-width: 1000px;
+	width: auto;
+	padding-bottom: 20px;
+	height: auto;
+	
+}
+
+#blogDiv {
+	background-color: #f7dcd9;
+	min-width: 1500px;
+	box-shadow: 17px 18px 46px -4px rgba(0,0,0,0.75);
+	margin: 50px;
+	transition: 0.7s;
+}
+
+#blogDiv:hover {
+	transform: scale(1.2);
+	cursor: pointer;
+}
+
+#h3-blog {
+	font-family: 'Mea Culpa', cursive;
+	font-size: 60px;
+	margin: 0;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+
+#p-blog {
+	display: flex;
+	justify-content: start;
+	max-width: 730px;
+	height: auto;
+	flex-wrap: wrap;
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+	padding-left: 20px;
+	
+}
+
+#img-blog {
+	
+	padding-left: 20px;
+	
+}
+
+#date {
+	font-family: 'Dancing Script', cursive;
+	display: inline-flex;
+	justify-content: end;
+	font-size: 25px;
+	padding-left: 600px;
+	
+	
+}
